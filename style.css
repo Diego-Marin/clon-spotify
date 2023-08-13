@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/*--------------------------------------------------Section 1 */
+.s1 {
+  padding: 0;
+  margin: 0px 8px 0px 0px;
+  width: 96%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid white;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+}
+
+/* s1-div1 */
+.s1-div1 {
+  padding: 30px;
+  width: 100%;
+  height: 10vh;
+  border: 1px solid white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s1-div1 .container-logo {
+  width: 20%;
+}
+
+.s1-div1 .container-logo img {
+  width: 130px;
+}
+
+.s1-div1 .container-busqueda {
+  position: relative;
+  border: 2px solid #ccc;
+  padding: 10px;
+  background-color: none;
+  border-radius: 100px;
+  width: 50%;
+}
+
+.container-busqueda .input-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  padding: 0 20px;
+}
+
+.input-search input {
+  width: 95%;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+}
+
+.container-busqueda .icon-search {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff;
+}
+
+.container-busqueda .icon-microfon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff;
+}
+
+.container-notificaciones {
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.container-notificaciones svg {
+  width: 25px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.s1-div1 .container-perfil {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.container-perfil .foto-perfil {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: #3498db;
+}
+
+.container-perfil .name-perfil {
+  color: white;
+}
+
+/* s1-div2 */
+.s1-div2 {
+  padding: 0;
+  margin: 8px;
+  width: 100%;
+  height: 80vh;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.s1-div2-1 {
+  padding: 0;
+  margin: 0;
+  width: 30vw;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+
+.s1-div2-1-1 {
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+  height: 20%;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #2727278a;
+}
+
+.s1-div2-1-2 {
+  padding: 0;
+  margin-top: 8px;
+  width: 100%;
+  height: 80%;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #2727278a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s1-div2-2 {
+  padding: 0;
+  margin-right: 8px;
+  margin-left: 8px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #cdddff8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*s1-div3*/
+.s1-div3 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 10vh;
+  border: 1px solid white;
+  box-sizing: border-box;
+  background-color: #45e186;
+}
+
+/*--------------------------------------------------Section 2*/
+.s2 {
+  padding: 30px 0;
+  margin: 0;
+  width: 4%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100px;
+  border: 1px solid white;
+  border-radius: 5px 0px 0px 5px;
+  box-sizing: border-box;
+  background-color: #2727278a;
+}
+
+.s2 .circulo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #3498db;
+}
