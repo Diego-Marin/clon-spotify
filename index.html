@@ -7,71 +7,76 @@
   <title>Clon Spotify</title>
   <link rel="shortcut icon" href="./assets/icon/favicon.svg" type="svg">
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
   <main>
-
     <section class="s1">
-
       <div class="s1-div1">
-
         <div class="container-logo">
           <a href="#">
             <img src="./assets/icon/logo-spotify.svg" alt="Logo">
           </a>
         </div>
-
-        <div class="container-busqueda">
-          <div class="input-search">
-            <input type="text" placeholder="Search...">
+        <div class="section-busqueda">
+          <div class="header-flechas">
+            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
           </div>
-          <span class="icon-search">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search"
+          <div class="container-busqueda">
+            <div class="input-search">
+              <input type="text" placeholder="Search...">
+            </div>
+            <span class="icon-search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </span>
+            <span class="icon-microfon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mic"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
+                <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z" />
+              </svg>
+            </span>
+          </div>
+  
+        </div>
+        <div class="section-perfil">
+          <div class="container-notificaciones">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chat-square-heart"
               viewBox="0 0 16 16">
               <path
-                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12ZM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z" />
+              <path d="M8 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
             </svg>
-          </span>
-          <span class="icon-microfon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mic"
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chat-square-dots"
               viewBox="0 0 16 16">
               <path
-                d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
-              <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z" />
+                d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+              <path
+                d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
             </svg>
-          </span>
-        </div>
-
-        <div class="container-notificaciones">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chat-square-heart"
-            viewBox="0 0 16 16">
-            <path
-              d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12ZM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z" />
-            <path d="M8 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chat-square-dots"
-            viewBox="0 0 16 16">
-            <path
-              d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-            <path
-              d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-          </svg>
-        </div>
-        <div class="container-perfil">
-          <div class="foto-perfil">
-            <img src="" alt="">
           </div>
-          <div class="name-perfil">
-            <p>Diego Mejia</p>
-            <p>Level 7</p>
+          <div class="container-perfil">
+            <div class="foto-perfil">
+              <img src="" alt="">
+            </div>
+            <div class="name-perfil">
+              <p>Diego Mejia</p>
+              <p>Level 7</p>
+            </div>
           </div>
         </div>
       </div>
-
       <div class="s1-div2">
-
         <div class="s1-div2-1">
           <div class="s1-div2-1-1">
             <div>
@@ -196,11 +201,37 @@
                 <P>Playlist trance</P>
               </div>
             </div>
-
+            <div class="div-playlist">
+              <div class="img-playlist"></div>
+              <div class="info-playlist">
+                <h3>Vibra X</h3>
+                <P>Playlist trance</P>
+              </div>
+            </div>
+            <div class="div-playlist">
+              <div class="img-playlist"></div>
+              <div class="info-playlist">
+                <h3>Vibra X</h3>
+                <P>Playlist trance</P>
+              </div>
+            </div>
+            <div class="div-playlist">
+              <div class="img-playlist"></div>
+              <div class="info-playlist">
+                <h3>Vibra X</h3>
+                <P>Playlist trance</P>
+              </div>
+            </div>
+            <div class="div-playlist">
+              <div class="img-playlist"></div>
+              <div class="info-playlist">
+                <h3>Vibra X</h3>
+                <P>Playlist trance</P>
+              </div>
+            </div>
           </div>
 
         </div>
-
         <div class="s1-div2-2">
 
           <div class="banner-div2-2">
@@ -237,9 +268,7 @@
 
         </div>
       </div>
-
       <div class="s1-div3">
-
         <div class="info-cancion">
           <div class="cancion">
             <div class="img-cancion-playing"></div>
@@ -321,14 +350,7 @@
           </div>
         </div>
       </div>
-
     </section>
-
-
-
-
-
-
     <section class="s2">
       <div class="circulo"></div>
       <div class="circulo"></div>
@@ -340,7 +362,6 @@
       <div class="circulo"></div>
       <div class="circulo"></div>
     </section>
-
   </main>
 </body>
 
